@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://baxnguoht46k0" path="res://Terrain (16x16).png" id="3_im420"]
 [ext_resource type="PackedScene" uid="uid://cjp60bmfia2to" path="res://scenes/main_character.tscn" id="4_gkhu3"]
 [ext_resource type="PackedScene" uid="uid://bo8rowkem5r2d" path="res://scenes/collectable.tscn" id="5_cfpym"]
-[ext_resource type="PackedScene" uid="uid://b30bfjw7wcq7j" path="res://scenes/main_menu.tscn" id="6_ernm4"]
+[ext_resource type="PackedScene" uid="uid://b76bwf3dl3nfs" path="res://scenes/level4.tscn" id="6_7gmwb"]
 [ext_resource type="PackedScene" uid="uid://bfshujjrrma1" path="res://scenes/finish.tscn" id="6_gi78w"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jv3wb"]
@@ -512,7 +512,7 @@ position_smoothing_speed = 7.0
 
 [node name="Finish" parent="SceneObjects" instance=ExtResource("6_gi78w")]
 position = Vector2(3759, 174)
-target_level = ExtResource("6_ernm4")
+target_level = ExtResource("6_7gmwb")
 
 [node name="UI" type="CanvasLayer" parent="."]
 
